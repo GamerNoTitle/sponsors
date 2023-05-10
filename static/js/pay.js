@@ -13,6 +13,15 @@ function wechat() {
 function afdian() {
     window.open(config['afdian']);
 }
+function paypal() {
+    window.open(config['paypal']);
+}
+function steam() {
+    window.open(config['steam']);
+}
+function custom(conf) {
+    window.open(config[conf]);
+}
 
 function load(node, html) {
     node.innerHTML = html;
