@@ -4,10 +4,10 @@ let btn_wechat = document.querySelector(".wechat");
 let res = document.querySelector(".res");
 
 function alipay() {
-    load(res, "<span class=\"tip\">加载中...</span><img class=\"payi\" src=\"" + config['alipay'] + "\">");
+    load(res, "<span class=\"tip\">加载中(Loading)</span><img class=\"payi\" src=\"" + config['alipay'] + "\">");
 }
 function wechat() {
-    load(res, "<span class=\"tip\">加载中...</span><img class=\"payi\" src=\"" + config['wechat'] + "\">");
+    load(res, "<span class=\"tip\">加载中(Loading)</span><img class=\"payi\" src=\"" + config['wechat'] + "\">");
     
 }
 function afdian() {
